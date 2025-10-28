@@ -14,11 +14,8 @@ It includes real-time shell output, animations, sound effects, and allows users 
 ### 📝 [note-saver](https://github.com/elielberra/note-saver)
 A **comprehensive full-stack monorepo** designed to explore modern **DevOps and infrastructure tooling** through a real working application that manages user notes.  
 
-- It comprises the typical webpage architecture of **Frontend**, **Backend**, and **Database**.  
-- **Frontend:** React + TypeScript, compiled with Webpack.  
-- **Backend:** Node.js + TypeScript REST API managing sessions and notes.  
-- **Database:** PostgreSQL with a predefined schema initialized by SQL scripts.  
-- **Messaging Layer:** RabbitMQ for asynchronous log routing and a **Go Consumer** to push logs into **Elasticsearch**.  
+- It comprises the typical webpage architecture of **Frontend**, **Backend**, and **Database**.    
+- **Messaging Layer:** **RabbitMQ** for asynchronous log routing and a **Go Consumer** to push logs into **Elasticsearch**.  
 - **Search & Observability:** Elasticsearch for indexing, **Kibana** for visualization, **Prometheus** and **Alertmanager** for metrics and alerting.  
 - **Orchestration & Deployment:** Full support for **Docker Compose**, **Minikube**, and **Amazon EKS**, with manifests and **Helm charts** to deploy microservices consistently.  
 - **Automation:** Bash scripts for local setup, SSL generation, namespace creation, and DNS configuration; **GitHub Actions** for CI/CD pipelines that build and publish Docker and Helm images automatically.  
