@@ -2,7 +2,7 @@
 
 - 🌎 From Buenos Aires, Argentina
 - 🧠 I enjoy working with Software Engineering, Cloud, Security and AI
-- ✉️ Reach me at: [berraieliel@gmail.com](mailto:berraieliel@gmail.com)
+- ✉️ Reach me at: [berraeliel@gmail.com](mailto:berraieliel@gmail.com)
 - 🌐 [My personal website](https://www.elielberra.com)
 
 ## 🖥️ Projects
