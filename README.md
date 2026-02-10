@@ -9,7 +9,7 @@
 
 ### 🧮 [terminal-app](https://github.com/elielberra/terminal-app)
 An interactive web terminal that simulates a Linux-like environment in the browser.
-It includes real-time shell output, animations, sound effects, and allows users to explore my portfolio through commands — blending web design, backend, and terminal aesthetics.
+It includes real-time shell output, animations, sound effects, and allows users to explore my portfolio through commands, blending web design, backend, and terminal aesthetics.
 
 ### 📝 [note-saver](https://github.com/elielberra/note-saver)
 A **comprehensive full-stack monorepo** designed to explore modern **DevOps and infrastructure tooling** through a real working application that manages user notes.  
