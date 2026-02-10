@@ -24,6 +24,8 @@ A **comprehensive full-stack monorepo** designed to explore modern **DevOps and 
 
 This project demonstrates a realistic **infrastructure-as-code** workflow — showing how multiple cloud-native tools integrate in a single monorepo to achieve observability, scalability, and maintainability.
 
+### 🌐 [http-server](https://github.com/elielberra/http-server)
+An exploratory project built in **Go** to gain a deeper understanding of the **HTTP protocol** and low-level **networking**.
+
 ## 🧰 Tech Stack
 Bash • Python • Go • TypeScript • Kubernetes
-
