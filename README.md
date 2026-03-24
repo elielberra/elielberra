@@ -8,24 +8,19 @@
 ## 🖥️ Projects
 
 ### 🧮 [terminal-app](https://github.com/elielberra/terminal-app)
-An interactive web terminal that simulates a Linux-like environment in the browser.
+An **interactive web terminal** that simulates a Linux-like environment in the browser.
 It includes real-time shell output, animations, sound effects, and allows users to explore my portfolio through commands, blending web design, backend, and terminal aesthetics.
 
 ### 📝 [note-saver](https://github.com/elielberra/note-saver)
-A **comprehensive full-stack monorepo** designed to explore modern **DevOps and infrastructure tooling** through a real working application that manages user notes.  
-
-- It comprises the typical webpage architecture of **Frontend**, **Backend**, and **Database**.    
-- **Messaging Layer:** **RabbitMQ** for asynchronous log routing and a **Go Consumer** to push logs into **Elasticsearch**.  
-- **Search & Observability:** Elasticsearch for indexing, **Kibana** for visualization, **Prometheus** and **Alertmanager** for metrics and alerting.  
-- **Orchestration & Deployment:** Full support for **Docker Compose**, **Minikube**, and **Amazon EKS**, with manifests and **Helm charts** to deploy microservices consistently.  
-- **Automation:** Bash scripts for local setup, SSL generation, namespace creation, and DNS configuration; **GitHub Actions** for CI/CD pipelines that build and publish Docker and Helm images automatically.  
-- **Monitoring:** Custom alert rules detect pod failures or readiness issues in Kubernetes.  
-- **Development Environment:** Includes **Vagrant** provisioning for consistent VM-based environments and **Git Hooks** to enforce code style and pre-push checks.  
-
-This project demonstrates a realistic **infrastructure-as-code** workflow — showing how multiple cloud-native tools integrate in a single monorepo to achieve observability, scalability, and maintainability.
+A comprehensive full-stack monorepo designed to explore modern **DevOps and infrastructure tooling** through a real working application that manages user notes. This project demonstrates a realistic IaC workflow, using several tools such as Bash scripting, Vagrant, Docker, Kubernetes, Prometheus, Elasticsearch, Kibana, RabbitMQ, Git Hooks and Actions, and more.
 
 ### 🌐 [http-server](https://github.com/elielberra/http-server)
-An exploratory project built in **Go** to gain a deeper understanding of the **HTTP protocol** and low-level **networking**.
+A **custom HTTP server** written in Go that avoids the standard `net` library and manages all network communication via direct syscalls.
+
+### 🌐 [casm-curl](https://github.com/elielberra/casm-curl)
+A **custom HTTP client** written in Assembly and C, featuring a low-level networking implementation.
 
 ## 🧰 Tech Stack
-Bash • Python • Go • TypeScript • Kubernetes
+Bash • Python • Go • Kubernetes
+### 🕹️ Low Level Enthusiast 
+C • Assembly
